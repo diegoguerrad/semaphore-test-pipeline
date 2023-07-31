@@ -10,13 +10,4 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - checkout
-  - name: Tests1
-    task:
-      jobs:
-        - name: Unit tests
-          commands:
-            - echo 'running unit tests'
-        - name: Integration tests
-          commands:
-            - echo 'running integration tests'
+            - checkout-1
